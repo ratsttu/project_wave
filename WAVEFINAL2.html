@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAVE</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href = "./WAVEFINAL2.1.css" rel="stylesheet">
+   
+</head>
+<head>
+    <script src="jquery-3.7.1.min.js"></script>
+    
+</head>
+
+<body>
+    
+    <nav id = "container2">
+        <ul id="list">
+            <li>
+                <button id = "logo"> <img src = "/waveimg.png" style = "width: 195px; height: 57px;"> </button>
+            </li>
+            <li>
+                <button class = "tutorial">
+                    Tutorial
+                </button>
+            </li>
+        </ul>
+    </nav>
+    <div id = "CodingArea">
+        <div id = "CODEBANK">
+                <h1 class="bank" >Code bank</h1>
+                <div class = "Motor" id = "dc">Both Motors for (*) Sec<form class = "InvisibleForm" id = "BMF"> <input class="NumberInput" id="dcForm" type="text" value ="#"></input> </form></div>
+                <div class ="Motor" id = "armup">Raise Arms (*) Sec <form class = "InvisibleForm" id = "BLF"> <input class="NumberInput" id="auForm" type="text" value ="#"></input> </form></div>
+                <div class= "Motor" id ="armdown">Lower Arms (*) Sec <form class = "InvisibleForm" id = "BLF"> <input class="NumberInput" id="adForm" type="text" value ="#"></input> </form></div>
+                <div class = "Motor" id = "dcr">Turn Left for (*) Sec <form class = "InvisibleForm" id = "BLF"> <input class="NumberInput" id="dcrForm" type="text" value ="#"></input> </form></div>
+                <div class = "Motor" id = "dcl">Turn Right for (*) Sec <form class = "InvisibleForm" id = "BMF"> <input class="NumberInput" id="dclForm" type="text" value ="#"></input> </form></div>
+                <div class = "control" id = "wait"> Wait for (*) Sec <form class = "InvisibleForm" id ="TRRF"> <input class="NumberInput" id="waitForm" type="text" value ="#"></input> </form></div>
+                <div class = "control" id = "loop">Loop (*) Times <form class = "InvisibleForm" id ="TRF"> <input class="NumberInput" id="loopForm" type="text" value ="#"></input> </form></div>
+        </div>
+        <div id = "CreativeSpace">
+            <div class = "Starting" id = "Start">START</div>
+        </div>
+    </div>
+    <div class = "tutorial-box">
+        <button class="material-symbols-outlined" id="TutorialClose">
+            <span>
+                close
+            </span>
+        </button>
+        <h1 class = "h1tutorial">Tutorial</h1>
+        <p class = "ptutorial">Drag and connect the blocks together to create the desired outcome from the robot.<br>
+        Press send to send the code to the robot. If the outcome that occured was not desired<br>
+        then bring the robot back to the start and rearrange the blocks until the desired action occurs.<br>
+        To send the code to the robot, Press ENTER.
+        </p>
+            
+    </div>
+
+    <button style = "background-color: rgba(255, 255, 255, 0);"><img src = "/send.png" class="send"></button>
+
+    <!--<script src = "./WAVEFINAL.js"></script> -->
+    <script src = "./WAVEFINAL2.js"></script>
+   
+</body>
+
+
+</html>
